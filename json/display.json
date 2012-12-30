@@ -1,0 +1,40 @@
+// Previous Results Structure
+{
+	"question" : null,
+	"results" : [
+		/* details and answers for one question */
+		{
+			"questionId" : 1,
+			"text" : "Question asked text goes here",
+			"answers" : [
+				/* we all the answers in order of rank */
+				{
+					"image" : "http://www.somthing.com/something/s.jpg",
+					"text" : "Jimmy Winner",
+					"id" : 1,
+					"voteCount" : 15
+				},
+				{
+					"image" : "http://www.somthing.com/something/s.jpg",
+					"text" : "Jimmy Second Place",
+					"id" : 1,
+					"voteCount" : 11
+				},
+				{
+					"image" : "http://www.somthing.com/something/s.jpg",
+					"text" : "Jimmy Last Place",
+					"id" : 1,
+					"voteCount" : 5
+				}				
+			]
+		}
+	]
+}
+
+// Socket Definitions
+
+// Event name				 			Payload
+// -----------------------------------------------------------------
+// newQuestion							same as client object ( can be null if none present )
+// questionExpired						question result instance
+// vote									answerId (int), voteCount (int)
