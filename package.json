@@ -1,0 +1,15 @@
+{
+  "author": "James Lockwood <contact@jameslockwood.com>, Aaron Signorelli <aarons88@gmail.com>",
+  "name": "Minor-Question-Time-Smash",
+  "description": "Mobile + TV for question answering fun",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.8.4"
+  },
+  "keywords": ["question", "poll", "mobile", "new years"],
+  "dependencies": {
+    "express": "2.5.11",
+    "connect": "1.7.1",
+    "socket.io": "0.9.11"
+  }
+}
