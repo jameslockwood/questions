@@ -22,7 +22,6 @@ var mockData = {
 	]
 };
 
-
 var AnswersModel = Backbone.Model.extend({
 	defaults : {
 		image : null,

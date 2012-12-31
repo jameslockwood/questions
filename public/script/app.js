@@ -29,6 +29,7 @@ $(function(){
 
 			// mock out our default new question
 			this.sockets.get('default').emit('newQuestion', { question: null } );
+
 		},
 		events : {
 			// events emitted from our default socket connection
@@ -72,7 +73,7 @@ $(function(){
 
 		},
 		_processQuestionExpired : function( results ){
-			this.log( 'question expired event - ', resultsObject );
+			this.log( 'question expired event - ', results );
 			this.views.each('hide');
 			this.views.get('results').render();
 		},

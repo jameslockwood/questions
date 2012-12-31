@@ -9,7 +9,6 @@ var QuestionResultsView = View.extend({
 	events : {
 		'click #submitQuestion' : function( e ){
 			var target = $(e.target);
-			console.log( target.val() );
 		}
 	},
 
