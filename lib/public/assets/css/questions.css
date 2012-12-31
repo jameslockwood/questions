@@ -1,3 +1,25 @@
+body > nav{
+	height:4em;
+}
+
+body > nav h1{
+	position: absolute;
+	font-size: 1.25em;
+	background: black;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin-top: 0px;
+	color: white;
+}
+
+@media (max-width: 767px) {
+  body > nav h1{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
 #app-wrapper{
 	position: relative;
 }
@@ -11,15 +33,29 @@
 	overflow: scroll;
 }
 
+section.question{
+	padding: 2em;
+	padding-left: 0em;
+}
+
+#text{
+	font-weight: bold;
+	font-size: 2em;
+}
+
 div.answer{
-	width: 50%;
+	width: 30%;
 	float: left;
 	position: relative;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
+	margin-right: 3%;
 }
 
 div.answer h4{
 	text-align: left;
+	font-size: 1.25em;
+	height: 2.25em;
+	max-height: 2.25em;
 }
 
 div.answer div.imageWrapper{
