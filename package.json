@@ -12,6 +12,7 @@
     "express": "2.5.11",
     "connect": "1.7.1",
     "ejs": "0.8.3 ",
+    "underscore": "1.4.3",
     "socket.io": "0.9.11"
   }
 }
