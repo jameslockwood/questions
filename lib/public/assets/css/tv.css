@@ -83,3 +83,9 @@ right: 0
 	height: 9em;
 }
 
+
+#preQuestion{
+	display: block;
+	font-size: 2em;
+	margin-bottom: 2em;
+}
