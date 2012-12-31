@@ -13,6 +13,7 @@ body > nav h1{
 	color: #555;
 	text-shadow: 0px 0px 1px #999;
 	border-bottom: 1px solid #ccc;
+	text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -64,29 +65,47 @@ section.question{
 #text{
 	font-weight: bold;
 	font-size: 2em;
+	display: block;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+#voteReceived{
+	display: block;
 }
 
 div.answer{
 	width: 30%;
 	float: left;
 	position: relative;
-	margin-bottom: 2em;
+	margin-bottom: 1.75em;
 	margin-right: 3%;
 }
 
 div.answer h4{
 	text-align: left;
 	font-size: 1.25em;
-	height: 1.5em;
-	max-height: 1.5em;
+	height: 1.25em;
+	max-height: 1.25em;
+	text-shadow: 0px 0px 1px #666;
+	font-weight: normal;
+	text-align: center;
 }
 
 div.answer div.imageWrapper{
 	width: 100%;
+	overflow: none;
+	border-radius: 5em;
+	border: 1px solid #eee;
+}
+
+div.answer div.imageWrapper.voted img{
+	opacity: 0.25;
 }
 
 div.answer div.imageWrapper img{
 	width: 100%;
+	border-radius: 50%;
 }
 
 form.form-search{
