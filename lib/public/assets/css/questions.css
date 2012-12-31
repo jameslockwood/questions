@@ -95,7 +95,7 @@ div.answer h4{
 div.answer div.imageWrapper{
 	width: 100%;
 	overflow: hidden;
-	border-radius: 5em;
+	border-radius: 50%;
 	border: 1px solid #eee;
 }
 
