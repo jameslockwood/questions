@@ -9,7 +9,7 @@ $(function(){
 		},
 		start : function(){
 			// add our default socket connection
-			this.sockets.add('default', io.connect('http://localhost'));
+			this.sockets.add('default', io.connect());
 
 			// add our model
 			this.models.add('data', new DataModel());
