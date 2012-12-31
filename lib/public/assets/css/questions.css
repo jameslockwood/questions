@@ -1,0 +1,30 @@
+#app-wrapper{
+	position: relative;
+}
+
+#vote{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom : 0;
+	overflow: scroll;
+}
+
+div.answer{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+div.answer h4{
+	text-align: left;
+}
+
+div.answer div.imageWrapper{
+	width: 100%;
+}
+
+div.answer div.imageWrapper img{
+	width: 100%;
+}
