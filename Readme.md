@@ -1,4 +1,4 @@
 
 ---
 ### Author
-Aaron Signorelli & James Lockwood
+A 4head app in conjunction with Minor Smash Productions 
