@@ -8,12 +8,6 @@ View = Backbone.View.extend({
 		}
 	},
 
-	log: function(message) {
-		if(typeof console == 'object' && typeof console.log == 'function') {
-			// console.log( message );
-		}
-	},
-
 	// template required, compileJSON is optional.
 	compileTemplate: function(template, compileJSON) {
 
@@ -27,6 +21,14 @@ View = Backbone.View.extend({
 			e.message = 'Failed to compile template.';
 			throw e;
 		}
+	},
+
+	show : function(){
+		this.$el.show();
+	},
+
+	hide : function(){
+		this.$el.hide();
 	}
 
 });

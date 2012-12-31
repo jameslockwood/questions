@@ -13,11 +13,25 @@
 	<script type="text/javascript" src="../script/infrastructure/view.js"></script>
 
 	<!-- app -->
+	<script type="text/javascript" src="../script/models/models.js"></script>
+
 	<script type="text/javascript" src="../script/views/addQuestion.js"></script>
 	<script type="text/javascript" src="../script/views/questionResults.js"></script>
 	<script type="text/javascript" src="../script/views/vote.js"></script>
 
 	<script type="text/javascript" src="../script/app.js"></script>
+
+	<!-- templates -->
+	<script type="template" id="answerTemplate">
+		{{#each answers}}
+		<div class="answer" data-id="{{id}}">
+			<h4 data-id="{{id}}">{{text}}</h4>
+			<div class="imageWrapper"  data-id="{{id}}">
+				<img src="{{image}}" alt="{{text}}"  data-id="{{id}}"/>
+			</div>
+		</div>
+		{{/each}}
+	</script>	
 
 </head>
 <body>
@@ -25,8 +39,21 @@
 		<h1>Questions</h1>
 	</header>
 	<section id="app-wrapper">
-		<section id="add"></section>
-		<section id="vote"></section>
+		<section id="add">
+			<h2>Add a question</h2>
+			<input id="question" type="text" value="" />
+			<button id="questionSubmit">Submit Question</button>
+		</section>
+		<section id="vote">
+			<section class="question">
+				<span id="text"></span>
+			</section>
+			<section class="timeLeft">
+				<span id="time"></span>
+			</section>			
+			<section class="answers">
+			</section>
+		</section>
 		<section id="results"></section>
 	</section>
 </body>
