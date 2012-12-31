@@ -15,6 +15,7 @@ div.answer{
 	width: 50%;
 	float: left;
 	position: relative;
+	margin-bottom: 1em;
 }
 
 div.answer h4{
