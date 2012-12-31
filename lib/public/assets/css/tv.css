@@ -64,6 +64,7 @@ h4.voteNumber{
 	margin: 1em 0em;
 	display: block;
 	color: #999;
+	line-height: 1em;
 }
 
 #app-wrapper{
