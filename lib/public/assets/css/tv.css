@@ -1,0 +1,85 @@
+body {
+	font-size: 200%;
+	margin: 2em;
+}
+
+body > nav {
+	display: none;
+}
+
+.prompt{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+.prompt span{
+	color: #06c;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+#previous{
+	margin-top: 2em;
+	position: relative;
+	height: 9em;
+}
+
+#previousQuestion{
+	position: absolute;
+	width: 45%;
+	left: 0;
+	font-size: 1.5em;
+}
+
+#previousQuestion span{
+	color: #666;
+	display: block;
+	line-height: 1.33em;
+	margin-right: 15%;
+}
+
+div.answer {
+	width: 20%;
+}
+
+div.answer h4 {
+	font-size: 2em;
+}
+h4.voteNumber{
+	margin-top: 1em;
+}
+#previousWinnder{
+	position: absolute;
+	width: 55%;
+	right: 0;
+	font-size: 0.5em;
+}
+
+#currentQuestion{
+	font-size : 2em;
+	margin: 1em 0em;
+	display: block;
+	color: #999;
+}
+
+#app-wrapper{
+	margin-bottom: 5em;
+}
+body footer{
+position: fixed;
+bottom: 0px;
+left: 0;
+right: 0
+}
+
+
+#questionResults{
+	margin-top: 2em;
+	position: relative;
+	height: 9em;
+}
+
