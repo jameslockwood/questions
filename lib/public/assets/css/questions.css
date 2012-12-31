@@ -77,8 +77,8 @@ div.answer{
 div.answer h4{
 	text-align: left;
 	font-size: 1.25em;
-	height: 2.25em;
-	max-height: 2.25em;
+	height: 1.5em;
+	max-height: 1.5em;
 }
 
 div.answer div.imageWrapper{
