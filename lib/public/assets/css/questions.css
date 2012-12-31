@@ -90,6 +90,7 @@ div.answer h4{
 	text-shadow: 0 0 1px #666;
 	font-weight: normal;
 	text-align: center;
+
 }
 
 div.answer div.imageWrapper{
@@ -99,17 +100,16 @@ div.answer div.imageWrapper{
 	border: 1px solid #eee;
 }
 
-div.answer div.imageWrapper.voted{
-	border-color: #0c0;
-	background-color: #0c0;
-}
+
 div.answer div.imageWrapper.voted img{
-	opacity: 0;
+	opacity: 0.25;
 }
 
 div.answer div.imageWrapper img{
 	width: 100%;
 	border-radius: 50%;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
 }
 
 form.form-search{
