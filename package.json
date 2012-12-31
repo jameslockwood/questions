@@ -4,7 +4,8 @@
   "description": "Mobile + TV for question answering fun",
   "version": "0.0.1",
   "engines": {
-    "node": "0.8.4"
+    "node": "0.8.4",
+    "npm": "1.1.45"
   },
   "keywords": ["question", "poll", "mobile", "new years"],
   "dependencies": {
